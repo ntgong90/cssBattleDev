@@ -1,0 +1,41 @@
+<!--Solution #4 Ups n Downs-->
+<section id = 'container1'>
+	<section class = 'square'></section>
+  <section class = 'mound1'></section>
+	<section class = 'square'></section>
+</section>
+<section id = 'container2'>
+  <section class = 'mound2'></section>
+	<section class = 'square'></section>
+  <section class = 'mound3'></section>
+</section>
+<style>
+body{
+  margin: 50px;
+  background-color: #62306D;
+}
+#container1, #container2{
+  display: flex;
+}
+.square{
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.mound1 {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background: #F7EC7D;
+}
+.mound2, .mound3{
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background: #F7EC7D; 
+}
+
+</style>
