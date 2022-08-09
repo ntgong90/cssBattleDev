@@ -1,0 +1,111 @@
+<!--Solution #8 Forking Crazy 99.9%-->
+<section id = 'container1'>
+    <div class = 'tip'></div>
+    <div class = 'spacer1'></div>
+    <div class = 'tip'></div>
+    <div class = 'spacer1'></div>
+    <div class = 'tip'></div>
+    <div class = 'spacer1'></div>
+    <div class = 'tip'></div>
+  </section>
+  <section id = 'container2'>
+    <div class = 'fork'></div>
+    <div class = 'spacer2'></div>
+    <div class = 'fork'></div>
+    <div class = 'spacer2'></div>
+    <div class = 'fork'></div>
+    <div class = 'spacer2'></div>
+    <div class = 'fork'></div>
+    <div class = 'undertip1'></div>
+    <div class = 'undertip2'></div>
+    <div class = 'undertip3'></div>
+  </section>
+  <section id = 'container3'>
+    <div class ='bottomleft'></div>
+    <div class ='bottomright'></div>
+  
+  </section>
+  <div class = 'handle'></div>
+  
+  <style>
+    #container1,#container2, #container3{
+      display:flex;
+    }
+    body {
+      margin-top: 50px;
+      margin-left: 130px;
+      background: #6592CF;
+    }
+    .bottomright{
+      border-bottom-right-radius:85%;
+      width: 70px;
+      height: 100px;
+      background: #060F55;   
+    }
+     .bottomleft{
+      border-bottom-left-radius:85%;
+      width: 70px;
+      height: 100px;
+      background: #060F55;   
+    }
+    .spacer1{
+      width: 20px;
+      height: 10px;
+      background: #6592CF; 
+    }
+    .tip{
+      border-top-right-radius: 100%;
+      border-top-left-radius: 100%;
+      width: 20px;
+      height: 20px;
+      background: #060F55
+    }
+    .spacer2{
+      width: 20px;
+      height: 50px;
+      background:#6592CF; 
+    }
+    
+    .undertip1{
+      position:absolute;
+      left:150px;
+      top:140px;
+      border-bottom-right-radius: 100%;
+      border-bottom-left-radius: 100%;
+      width: 20px;
+      height: 20px;
+      background: #6592CF;
+    }
+      .undertip2{
+      position:absolute;
+      left:190px;
+      top:140px;
+      border-bottom-right-radius: 100%;
+      border-bottom-left-radius: 100%;
+      width: 20px;
+      height: 20px;
+      background: #6592CF;
+    }
+     .undertip3{
+      position:absolute;
+      left:230px;
+      top:140px;
+      border-bottom-right-radius: 100%;
+      border-bottom-left-radius: 100%;
+      width: 20px;
+      height: 20px;
+      background: #6592CF;
+    }
+    .fork {
+      width: 20px;
+      height: 80px;
+      background: #060F55;
+    }
+    .handle{
+      margin-left:60px;
+      width: 20px;
+      height: 50px;
+      background: #060F55;
+    }
+  </style>
+  
