@@ -1,0 +1,57 @@
+<!--Solution #11 Eye of Sauron 100%-->
+<div class = 'iris'></div>
+<div class = 'outereye'></div>
+<div class = 'leftlash'></div>
+<div class = 'rightlash'></div>
+
+<style>
+  body{
+	background: #191210;
+  }  
+    .iris {
+    position: absolute;
+    top:125px;
+    left:175px;
+    background: #84271C;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    z-index:1;
+  }
+  .outereye {
+    position: absolute;
+    top:92px;
+    left:142px;
+    background: #191210;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    box-shadow: 0 0 0 20px #ECA03D;
+  }
+  .leftlash{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 60px;
+    height: 30px;
+    background: #191210;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border: 20px solid #ECA03D;
+    border-top: 0;
+  }
+  .rightlash{
+    position: absolute;
+    top: 100;
+    left: 250px;
+    width: 60px;
+    height: 30px;
+    background: #191210;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border: 20px solid #ECA03D;
+    border-bottom: 0;
+  }
+  
+</style>
