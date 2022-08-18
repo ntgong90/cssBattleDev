@@ -1,0 +1,87 @@
+<!--Solution #16 Eye of the Tiger 100%-->
+<section id = 'container'>
+	<div class = 'ring1'>
+		<div class = 'ring2'>
+			<div class = 'ring3'>
+				<div class = 'ring4'>
+				</div>
+			</div>
+		</div>
+	</div>
+  </section>
+  <section class = 'leftTriangle'></section>
+  <section class = 'rightTriangle'></section>
+  
+  <style>
+	body{
+	  margin-top: 30px;
+	  background: #0B2429;
+	}
+	#container{
+	width:380px;
+	height:240px;
+	margin: 0 auto;
+	display:flex;
+	align-items: center;
+	justify-content: center;  
+  
+	}
+	.ring1{
+		border-radius: 50%;
+		width: 200px;
+		height: 200px;
+		background: #998235;
+		display: flex;
+		align-items: center;
+		justify-content: center;  
+	}
+	.ring2{
+		border-radius: 50%;
+		width: 180px;
+		height: 180px;
+		background: #0B2429;
+		display: flex;
+		align-items: center;
+		justify-content: center;  
+	}
+	  .ring3{
+		border-radius: 50%;
+		width: 140px;
+		height: 140px;
+		background: #F3AC3C;
+		display: flex;
+		align-items: center;
+		justify-content: center;  
+  
+	}
+	  .ring4{
+		border-radius: 50%;
+		width: 50px;
+		height: 50px;
+		background: #0B2429;
+	}
+	 .leftTriangle{
+	  position: absolute;
+	  top: 80px;
+	  left: 271px;
+	  width: 0px;
+	  height: 0px;
+	  border-style: solid;
+	  border-width: 70px 70px 70px 70px;
+	  border-color: transparent transparent transparent #998235;
+	  background: transparent;
+	  z-index: -1;
+	}
+	 .rightTriangle{
+	  position: absolute;
+	  top: 80px;
+	  right: 271px;
+	  width: 0px;
+	  height: 0px;
+	  border-style: solid;
+	  border-width: 70px 70px 70px 70px;
+	  border-color: transparent #998235 transparent transparent ;
+	  background: transparent;
+	  z-index: -1;
+	}
+  </style>
