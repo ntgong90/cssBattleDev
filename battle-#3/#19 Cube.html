@@ -1,0 +1,63 @@
+<!--Solution #19 Cube 100%-->
+<div class = 'diamond'></div>
+<div class = 'left'></div>
+<div class = 'right'></div>
+<div class = 'cover1'></div>
+<div class = 'cover2'></div>
+
+<style>
+  body{
+    background: #0B2429;
+  }
+  .diamond {
+    position:absolute;
+    top:135px;
+    left:150px;
+    width: 100px;
+    height: 100px;
+    background: #F3AC3C;
+    transform: rotate(45deg);
+  }
+  .left{
+    position:absolute;
+    top:44px;
+    left:129px;
+    width: 71px;
+    height: 141px;
+    background: #998235;
+    z-index:-1;
+  }
+  .right{
+    position:absolute;
+    top:44px;
+    right:129px;
+    width: 71px;
+    height: 141px;
+    background: #1A4341;
+    z-index:-1;
+  }
+.cover1{
+    position: absolute;
+    top: 44px;
+    left: 129px;
+    width: 0px;
+    height: 0px;
+    border-left: 36px solid transparent;
+    border-right: 35px solid #998235;
+    border-bottom: 36px solid #998235;
+    border-top: 35px solid transparent;
+    background: #0B2429;
+}
+.cover2 {
+    position: absolute;
+    top: 44px;
+    right: 129px;
+    width: 0px;
+    height: 0px;
+    border-left: 36px solid #1A4341;
+    border-right: 35px solid transparent;
+    border-bottom: 36px solid #1A4341;
+    border-top: 35px solid transparent;
+    background: #0B2429;
+}
+</style>
