@@ -1,0 +1,49 @@
+<!--Solution #27 Lock Up 100%-->
+<div class = 'cir'></div>
+<div class = 'ring'></div>
+<div class = 'fil1'></div>
+<div class = 'fil2'></div>
+
+<style>  
+  body{
+    background: #E38F66;
+  }
+.cir,.ring,.fil1,.fil2{
+  position: absolute;
+}
+  
+  .cir {
+    top:50px;
+    left:100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #AA445F;
+    z-index:-1;
+  }
+.ring{
+  top:80px;
+  left:130px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 30px solid #F7EC7D;
+  z-index: 0;
+}
+  .fil1{
+  top:70px;
+  left:120px;
+  width: 80px;
+  height: 80px;
+  border-top-left-radius: 100%;
+  background:#AA445F;
+  }
+  .fil2{
+  top:150px;
+  left:200px;
+  width: 80px;
+  height: 80px;
+  border-bottom-right-radius: 100%;
+  background:#AA445F;
+  }
+</style>
